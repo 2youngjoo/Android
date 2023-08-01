@@ -4,7 +4,8 @@ public class Todo {
     private int num;
     private String content;
     private String regdate;
-    public Todo (){};
+
+    public Todo(){}
 
     public Todo(int num, String content, String regdate) {
         this.num = num;

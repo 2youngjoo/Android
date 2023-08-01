@@ -20,7 +20,7 @@ class Person constructor(name:String){
 // 위의 코드를 줄이면 아래와 같다
 // var만 선언 해주면 생성자는 알아서 들어간다.
 // var or val 을 생성자의 인자에 선언하면 전달받은 값이 자동으로 같은 이름의 필드가
-// 만들어 지면서 값이 필드에 대입된다.
+// 만들어 지면서 값이 필드에 대입 된다.
 // var 은 수정이 가능한 필드가 만들어 지고, val 은 수정이 불가능한 필드가 만들어 진다.
 class Person(var name:String)
 
